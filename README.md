@@ -35,8 +35,8 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" width="42" alt="git logo" />
   </a>
 
-  <a href="https://github.com/" target="_blank">
-    <img src="https://imgs.search.brave.com/zCpIRGB6iwrBKOaYIxAN_j4nmKbekWASOGlJ4X5eF7g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3ZncmVwby5jb20v/c2hvdy8zNDk0ODUv/cHl0aG9uLnN2Zw" height="30" width="42" alt="python logo" />
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://imgs.search.brave.com/zCpIRGB6iwrBKOaYIxAN_j4nmKbekWASOGlJ4X5eF7g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3ZncmVwby5jb20v/c2hvdy8zNDk0ODUv/cHl0aG9uLnN2Zw" height="30" width="30" alt="python logo" />
   </a>
 
   <a href="https://www.tutorialspoint.com/vlsi_design/vlsi_design_vhdl_introduction.htm" target="_blank">
