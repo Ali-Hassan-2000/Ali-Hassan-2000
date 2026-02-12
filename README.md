@@ -63,11 +63,10 @@
 <h2 align="center">⚡ Stats ⚡ </h2>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snaketp.gif">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snaketp.gif">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snaketp.gif">
-  </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snake.svg" alt="snake animation">
+</picture>
 </p>
 
   <br>
