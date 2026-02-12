@@ -1,57 +1,22 @@
-name: Generate Animation
+name: Generate Snake
 
 on:
-  # Run automatically every 12 hours
   schedule:
-    - cron: "0 */12 * * *"
-
-  # Allows manual execution of the job at any time
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
-  # Run on every push on the main branch
-  push:
-    branches:
-      - main
-
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: Platane/snk@v3
         with:
-          ref: main  # Specify the branch you want to checkout
-
-      - name: Set up permissions for dist directory
-        run: |
-          mkdir -p dist
-          chmod -R 755 dist  # Adjust permissions as needed
-        working-directory: ${{ github.workspace }}
-
-      - name: Generate GitHub Contribution Grid Snake GIF
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Ali-Hassan-2000
           outputs: |
-            dist/github-snake.gif
-            dist/github-snake-dark.gif?palette=github-dark
-            dist/snake.gif?color_snake=red&color_dots=#5f8bec,#4D2DB7,#9D44C0,#EC53B0,#F0E2E7
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install Python requirements
-        run: |
-          pip install numpy Pillow imageio 
-        working-directory: ${{ github.workspace }}
-
-      - name: Run Python Script to Process GIF
-        run: python .github/workflows/process_gif.py
-        working-directory: ${{ github.workspace }}
-        
-      - name: Push github-contribution-grid-snake.gif to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
