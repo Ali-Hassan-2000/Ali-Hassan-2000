@@ -60,14 +60,4 @@
 
 <br><br><br>
 
-<h2 align="center">⚡ Stats ⚡ </h2>
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snake.svg" alt="snake animation">
-</picture>
-</p>
-
-  <br>
 </p>
