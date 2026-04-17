@@ -148,7 +148,7 @@
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snaketp.gif">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snaketp.gif">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/snaketp.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/github-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Ali-Hassan-2000/Ali-Hassan-2000/output/github-snake.svg">
 </picture>
