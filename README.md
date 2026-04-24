@@ -8,7 +8,7 @@
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=Ali-Hassan-2000&label=Profile%20views&color=E852AF&style=for-the-badge" alt="Ali-Hassan" />
-  <img width="20" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E" alt="" />
+  <img width="10" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E" alt="" />
   <a href="https://www.linkedin.com/in/alihassansalman2000" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" alt="linkedin logo" />
   </a>
